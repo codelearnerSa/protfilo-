@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.orange {
+    color: orange
+}
+
+.heaf-width img {
+    width: 100%;
+}
+
+.heaf-width {
+    width: 50%;
+    padding-left: 8%;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+.heaf-width h2 {
+    font-size: 40px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.button-link {
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 10px 40px;
+    background: linear-gradient(orange, tomato);
+    color: white;
+    width: 700;
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.site-banner {
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+}
+
+.experiences-sec {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 50px;
+
+}
+
+.experiences-iteam {
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 20px;
+    padding-bottom: 90px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#full-stack-dev {
+
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#dev-sec {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+ footer {
+    margin-top: 200px;
+    margin-bottom: 50px;
+ }
+footer p {
+    text-align: center;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
